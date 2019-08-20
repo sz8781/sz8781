@@ -1,0 +1,334 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.same {
+  margin: 0 auto;
+  width: 1170px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: blink;
+  color: gold;
+}
+.fa {
+  color: #ff6700;
+}
+.header {
+  height: 800px;
+  margin: 0 auto;
+  background-image: url(image/1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.header .header-bg {
+  overflow: hidden;
+  height: 800px;
+  background: rgba(0, 0, 0, 0.6);
+}
+.header .header-bg .header-nav {
+  overflow: hidden;
+  width: 700px;
+  float: right;
+  margin: 20px auto;
+}
+.header .header-bg .header-nav li {
+  list-style: none;
+  float: left;
+  padding: 10px 30px;
+  color: white;
+  text-align: center;
+  width: 100px;
+  transition: all 1s;
+}
+.header .header-bg .header-nav li ul {
+  position: relative;
+  display: none;
+  top: 0px;
+  left: 0px;
+  padding: 0px;
+}
+.header .header-bg .header-nav li ul li {
+  float: none;
+  text-align: center;
+  width: 100px;
+  left: -30px;
+  position: relative;
+  color: white;
+}
+.header .header-bg .header-nav li:hover ul {
+  display: block;
+}
+.header .header-bg .header-nav li:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+.header .header-bg .header-nav li:hover a {
+  color: white;
+  text-decoration: none;
+}
+.header .header-bg p {
+  color: white;
+  font-size: 25px;
+  width: 70px;
+  position: relative;
+  top: 160px;
+  left: 250px;
+  font-family: cursive;
+  border: none;
+  background: limegreen;
+  padding: 10px;
+  text-align: center;
+  border-radius: 15%;
+  transition: all 1s;
+}
+.header .header-bg p:hover {
+  background: none;
+  color: gold;
+}
+.header .header-bg h3 {
+  color: white;
+  position: relative;
+  top: 160px;
+  left: 250px;
+  font-family: cursive;
+  font-size: 30px;
+  transition: all 1s;
+}
+.header .header-bg h3:hover {
+  color: lightgreen;
+}
+.header .header-bg span {
+  color: white;
+  font-size: 25px;
+  position: relative;
+  top: 270px;
+  left: 910px;
+  font-family: cursive;
+  border: none;
+  background: limegreen;
+  padding: 15px;
+  text-align: center;
+  border-radius: 15%;
+  transition: all 1s;
+}
+.header .header-bg span:hover {
+  background: none;
+  color: gold;
+}
+.header .header-bg h2 {
+  color: white;
+  position: relative;
+  top: 150px;
+  left: 800px;
+  font-family: cursive;
+  font-size: 30px;
+  transition: all 1s;
+}
+.header .header-bg h2:hover {
+  color: lightgreen;
+}
+.body .bodys .introduction {
+  width: 1170px;
+  margin: 50px auto;
+}
+.body .bodys .introduction .introduction-box {
+  overflow: hidden;
+}
+.body .bodys .introduction .introduction-box .introduction-box-pic {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.body .bodys .introduction .introduction-box .introduction-box-pic img {
+  width: 50%;
+}
+.body .bodys .introduction .introduction-box .introduction-box-written {
+  letter-spacing: 1.5px;
+  width: 50%;
+  float: left;
+}
+.body .bodys .introduction .introduction-box .introduction-box-written span {
+  font-size: 24px;
+}
+.body .bodys .lung-bg {
+  background: rgba(0, 0, 0, 0.1);
+}
+.body .bodys .lung-bg .lung {
+  width: 1170px;
+  overflow: hidden;
+  margin: 100px auto;
+}
+.body .bodys .lung-bg .lung .lung-ness {
+  width: 28%;
+  height: 400px;
+  float: left;
+  margin: 30px 2%;
+  text-align: center;
+  background: white;
+}
+.body .bodys .lung-bg .lung .lung-ness .lung-pic img {
+  width: 85%;
+  height: 85%;
+  padding: 25px;
+}
+.body .bodys .lung-bg .lung .lung-ness h4 {
+  color: red;
+  letter-spacing: 1.5px;
+}
+.body .bodys .lung-bg .lung .lung-ness p {
+  letter-spacing: 1.5px;
+}
+.body .bodys .guidance {
+  overflow: hidden;
+  width: 1170px;
+  margin: 50px auto;
+}
+.body .bodys .guidance .introduce {
+  overflow: hidden;
+}
+.body .bodys .guidance .intrli {
+  width: 1170px;
+  height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.body .bodys .guidance .intrli li {
+  width: 48%;
+  height: 300px;
+  float: left;
+  overflow: hidden;
+  list-style: none;
+  margin: 0 1%;
+}
+.body .bodys .guidance .intrli li img {
+  width: 44%;
+  height: 85%;
+  float: left;
+  padding: 15px;
+  box-shadow: darkgrey -3px -5px 10px 10px;
+  border: 2px solid;
+}
+.body .bodys .guidance .intrli li p {
+  width: 44%;
+  height: 92%;
+  float: left;
+  padding: 15px;
+  margin: 0;
+}
+.body .bodys .guidance .intrli li:nth-child(1) {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.body .bodys .guidance .intrli li:nth-child(2) {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.body .bodys .guidance .intrli li:nth-child(3) {
+  position: relative;
+  top: -300px;
+  left: 100%;
+}
+.body .bodys .guidance .intrli li:nth-child(4) {
+  position: relative;
+  top: -300px;
+  left: 100%;
+}
+.body .bodys .guidance .intrli li:nth-child(5) {
+  position: relative;
+  top: -600px;
+  left: 200%;
+}
+.body .bodys .guidance .intrli li:nth-child(6) {
+  position: relative;
+  top: -600px;
+  left: 200%;
+}
+.body .bodys .guidance .intrli li:nth-child(7) {
+  position: relative;
+  top: -900px;
+  left: 300%;
+}
+.body .bodys .guidance #btn {
+  border: none;
+  background: none;
+  position: relative;
+  left: 45%;
+  margin: 35px 0;
+  outline: none;
+}
+.body .bodys .guidance #btn:hover {
+  background: gold;
+}
+.body .contact {
+  background: rgba(0, 0, 0, 0.3);
+}
+.body .contact .contact-bg {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 1170px;
+}
+.body .contact .contact-bg .contact-writen {
+  padding: 10px 0;
+}
+.body .contact .contact-bg .contact-box {
+  margin: 0 1%;
+  overflow: hidden;
+}
+.body .contact .contact-bg .contact-box .weixing {
+  width: 31%;
+  float: left;
+}
+.body .contact .contact-bg .contact-box .weixing p {
+  transition: all 0.8s;
+}
+.body .contact .contact-bg .contact-box .weixing p:hover {
+  color: blue;
+}
+.body .contact .contact-bg .contact-box .email {
+  width: 31%;
+  float: left;
+}
+.body .contact .contact-bg .contact-box .email p {
+  transition: all 0.8s;
+}
+.body .contact .contact-bg .contact-box .email p:hover {
+  color: blue;
+}
+.body .contact .contact-bg .contact-box .qq {
+  width: 31%;
+  float: left;
+}
+.body .contact .contact-bg .contact-box .qq p {
+  transition: all 0.8s;
+}
+.body .contact .contact-bg .contact-box .qq p:hover {
+  color: blue;
+}
+.footer {
+  background: lightgoldenrodyellow;
+}
+.footer .footer-color {
+  margin: 0 auto;
+  width: 1170px;
+}
+.footer .footer-color p {
+  text-align: center;
+  font-size: 12px;
+  margin: 0;
+  padding: 20px 0;
+}
+.top {
+  position: fixed;
+  right: 50px;
+  bottom: 100px;
+  display: none;
+}
+.top .fa-angle-double-up {
+  color: black;
+}
