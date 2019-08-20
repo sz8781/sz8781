@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Wheel planting</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/animate.min.css">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+</head>
+<body>
+  <div class="box">
+    <div class="imgs">
+      <div class="swiper-container aniview" data-av-animation="bounceIn">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="auto-img" src="http://c.vpimg1.com/upcb/2019/03/19/57/ias_155297740486444_570x273_90.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img class="auto-img" src="http://c.vpimg1.com/upcb/2019/06/13/151/ias_156039645558979_570x273_90.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img class="auto-img" src="http://c.vpimg1.com/upcb/2019/07/12/88/ias_156292408244680_570x273_90.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img class="auto-img" src="https://c.vpimg1.com/upcb/2019/07/19/69/ias_156351435910137_570x273_90.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img class="auto-img" src="https://d.vpimg1.com/upcb/2019/07/11/138/ias_156283741123349_570x273_90.jpg" alt="">
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+   </div>
+  </div>
+  <p class="aniview" data-av-animation="bounceInDown">2.5s轮播一次</p>
+  <p class="aniview" data-av-animation="bounceIn">鼠标悬浮停止功能没有实现</p>
+  <p class="aniview" data-av-animation="bounceInDown">利用swiper插件做的一个轮播图</p>
+  <script src="./js/jquery-3.4.1.js"></script>
+  <script src="./js/swiper.min.js"></script>
+  <script src="./js/jquery.aniview.js"></script>
+  <script src="./js/wow.min.js"></script>
+  <script>
+    $(function () {
+      $('.aniview').AniView();
+      var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+    })
+  </script>
+</body>
+</html>
